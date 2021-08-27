@@ -1,16 +1,17 @@
 .blog {
-  width: 80%;
+  width: 90%;
   margin: 3rem auto;
 }
 .blog > h1 {
   font-weight: 900;
   color: black;
 }
-h4 {
+.blog > h4 {
   margin-top: 0.5rem;
   color: grey;
 }
-.blogs1 {
+.blogs1,
+.blogs2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-column-gap: 6rem;
@@ -23,21 +24,92 @@ h4 {
   height: 23rem;
   object-fit: cover;
   overflow: hidden;
+ border-radius: .9rem;
 }
 .blogs .blogbtm {
   padding: 1rem 1rem 2rem 1rem;
   line-height: 1.5rem;
   color: white;
+  position: relative;
 }
-.blogbtm p{
-    margin-top: .3rem;
+
+.blogbtm p {
+  margin-top: 0.3rem;
 }
+.blogbtm1::before,
+.blogbtm2::before,
+.blogbtm3::before {
+  position: absolute;
+  left: 6.5%;
+  top: -12%;
+  content: "Resouce";
+  padding: 0rem 0.5rem;
+  border-radius: 0.5rem;
+  color: #2bb2db;
+  background-color: white;
+}
+.blogbtm2::before {
+  content: "lifestyle";
+  color: #db7d39;
+}
+.blogbtm3::before {
+  content: "entertainment";
+  color: #f3b822;
+}
+
 .lightb {
   background-color: #46b8db;
 }
 .ltbr {
   background-color: #dba47e;
 }
-.orng{
-    background-color: #ecba3b;
+.orng {
+  background-color: #dba47e;
+}
+.blogs{
+  
+  border-radius: .9rem;
+}
+
+/* blog 2 */
+.blog2top img {
+  height: 10rem;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: .9rem;
+  border-top-right-radius: .9rem;
+}
+.blog2btm {
+  line-height: 1.5rem;
+  padding: 1rem 1rem 1.5rem 1rem;
+  border-bottom: 1px solid rgb(214, 211, 211);
+  border-left: 1px solid rgb(214, 211, 211);
+  border-right: 1px solid rgb(214, 211, 211);
+  border-bottom-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  position: relative;
+}
+.blog2btm p {
+  font-size: 14px;
+}
+
+.blog2btm1::before,
+.blog2btm2::before,
+.blog2btm3::before {
+  position: absolute;
+  left: 6.5%;
+  top: -12%;
+  content: "Resouce";
+  padding: 0rem 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+.blog2btm1::before {
+  background-color: #46b8db;
+}
+.blog2btm2::before {
+  background-color: #dba47e;
+}
+.blog2btm3::before {
+  background-color: #f3b000;
 }
