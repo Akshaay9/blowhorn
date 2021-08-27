@@ -1,0 +1,88 @@
+.team {
+  height: 100vh;
+  width: 80%;
+  margin: 3rem auto;
+}
+.l {
+  background-color: #ecfdf5;
+}
+.p {
+  background-color: #fdf2f8;
+}
+.bl {
+  background-color: #eff6ff;
+}
+.y {
+  background-color: #dbe0a9;
+}
+.team > p {
+  color: var(--blue);
+}
+.tea > h1 {
+  width: 40%;
+}
+.tea {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.t {
+  width: 30%;
+  background-color: #ebf2fccb;
+  padding: 2.5rem 0rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.poeples {
+  margin: 1rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-column-gap: 6rem;
+  grid-row-gap: 1rem;
+}
+.person-top {
+  /* border: 1px solid red; */
+  padding: 0rem 1rem;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.person img {
+  width: 100%;
+  height: 13rem;
+  object-fit: cover;
+  clip-path: circle();
+}
+.person-bottom {
+  text-align: center;
+  line-height: 1.5rem;
+}
+.person-bottom p {
+  font-size: 14px;
+}
+.person-bottom p:nth-child(2) {
+  color: var(--blue);
+}
+.person-bottom i {
+  padding: 0rem 0.5rem;
+  color: #d1d5db;
+}
+
+@media screen and (max-width: 780px) {
+  .t {
+    display: none;
+  }
+  .tea > h1 {
+    width: 100%;
+  }
+  .person img {
+    height: 18rem;
+  }
+  .person-bottom p {
+    font-size: 18px;
+  }
+}
