@@ -74,7 +74,7 @@ function Blogs() {
                 alt=""
               />
             </div>
-            <div className="blog2btm blog2btm">
+            <div className="blog2btm blog2btm2">
             <h4>Eating for produtivity</h4>
             <p>Learn how to be more disciplined in your diet to meet the consistency </p>
             </div>
