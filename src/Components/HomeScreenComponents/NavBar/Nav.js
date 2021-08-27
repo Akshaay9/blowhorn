@@ -20,7 +20,10 @@ function Nav() {
         </p>
       </div>
       <div className="nav-mobile ">
-        <div className="ham" onClick={() => setModalOpen((e) => !e)}>
+        <div
+          className={`ham ${modalOpen ? "bend" : ""}`}
+          onClick={() => setModalOpen((e) => !e)}
+        >
           <div></div>
           <div></div>
           <div></div>

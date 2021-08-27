@@ -66,6 +66,18 @@
   width: 2rem;
   height: 0.1rem;
   margin-bottom: 0.3rem;
+  transition: all 500ms ease-in-out;
+}
+.bend > div:nth-child(1) {
+ 
+  transform: rotate(-120deg);
+ 
+  transition: all 500ms ease-in-out;
+}
+.bend > div:nth-child(3) {
+ 
+  transform: rotate(120deg);
+  transition: all 500ms ease-in-out;
 }
 
 @media screen and (max-width: 780px) {
@@ -96,7 +108,7 @@
     transform: translateX(-100%);
     transition: all 500ms ease-in-out;
   }
-  .open{
+  .open {
     transform: translateX(0%) !important;
     transition: all 500ms ease-in-out;
   }
