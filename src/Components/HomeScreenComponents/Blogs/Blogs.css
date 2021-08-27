@@ -1,0 +1,43 @@
+.blog {
+  width: 80%;
+  margin: 3rem auto;
+}
+.blog > h1 {
+  font-weight: 900;
+  color: black;
+}
+h4 {
+  margin-top: 0.5rem;
+  color: grey;
+}
+.blogs1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-column-gap: 6rem;
+  grid-row-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.blogs .blogtop img {
+  width: 100%;
+  height: 23rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+.blogs .blogbtm {
+  padding: 1rem 1rem 2rem 1rem;
+  line-height: 1.5rem;
+  color: white;
+}
+.blogbtm p{
+    margin-top: .3rem;
+}
+.lightb {
+  background-color: #46b8db;
+}
+.ltbr {
+  background-color: #dba47e;
+}
+.orng{
+    background-color: #ecba3b;
+}

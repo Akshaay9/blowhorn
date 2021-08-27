@@ -4,6 +4,7 @@ import HeroBanner from "../Components/HomeScreenComponents/HeroBanner/HeroBanner
 import Intro from "../Components/HomeScreenComponents/Intro/Intro";
 import Feature from "../Components/HomeScreenComponents/Features/Feature";
 import Team from "../Components/HomeScreenComponents/Team/Team";
+import Blogs from "../Components/HomeScreenComponents/Blogs/Blogs";
 
 function HomeScreen() {
   return (
@@ -13,6 +14,7 @@ function HomeScreen() {
       <Intro />
       <Feature />
       <Team />
+      <Blogs />
     </div>
   );
 }

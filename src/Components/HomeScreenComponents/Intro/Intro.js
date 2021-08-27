@@ -1,7 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import bot from "../../../Assets/HeroSVG/bot.svg";
-import space from "../../../Assets/HeroSVG/space.svg";
+
 
 function Intro() {
   return (
@@ -9,7 +8,10 @@ function Intro() {
       <div className="intro">
         <div className="introcard-1">
           <div className="intro-card-svg">
-            <img src={space} alt="" />
+            <img
+              src="https://cdn.devdojo.com/images/december2020/productivity.png"
+              alt=""
+            />
           </div>
           <div className="introcard">
             <h2>Boost Productivity</h2>
@@ -32,8 +34,8 @@ function Intro() {
           </div>
         </div>
         <div className="introcard-2">
-        <div className="intro-card-svg">
-            <img src={bot} alt="" />
+          <div className="intro-card-svg">
+            <img src="https://cdn.devdojo.com/images/december2020/settings.png" alt="" />
           </div>
           <div className="introcard">
             <h2>Automated Task</h2>
@@ -53,7 +55,6 @@ function Intro() {
               </li>
             </ul>
           </div>
-        
         </div>
       </div>
     </div>
