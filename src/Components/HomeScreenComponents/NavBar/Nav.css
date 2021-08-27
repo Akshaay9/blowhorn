@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 92%;
+  margin: 0rem auto;
+  padding: 1.5rem 0rem 1rem 0rem;
+  cursor: pointer;
+  border-bottom: 1px solid #e8e9ec;
+}
+.navleft h4 {
+  font-weight: bolder;
+}
+.navleft {
+  width: 8.6%;
+}
+.navcenter > p,
+.navright > p {
+  font-size: 15px;
+  color: #6b727e;
+}
+
+.navcenter > p:hover {
+  color: var(--blue);
+}
+.navright > p:hover {
+  color: var(--blue);
+}
+
+.navcenter > p:nth-child(1) {
+  color: var(--blue);
+  font-weight: bold;
+}
+.navcenter {
+  margin: auto !important;
+  display: flex;
+  width: 45%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navright {
+  display: flex;
+  width: 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+.navright p:nth-child(2) {
+  background-color: var(--blue);
+  padding: 0.5rem;
+  border-radius: 10rem;
+  color: white;
+}
+
