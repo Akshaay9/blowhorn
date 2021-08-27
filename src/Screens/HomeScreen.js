@@ -5,6 +5,7 @@ import Intro from "../Components/HomeScreenComponents/Intro/Intro";
 import Feature from "../Components/HomeScreenComponents/Features/Feature";
 import Team from "../Components/HomeScreenComponents/Team/Team";
 import Blogs from "../Components/HomeScreenComponents/Blogs/Blogs";
+import Footer from "../Components/HomeScreenComponents/Footer/Footer";
 
 function HomeScreen() {
   return (
@@ -15,6 +16,7 @@ function HomeScreen() {
       <Feature />
       <Team />
       <Blogs />
+      <Footer />
     </div>
   );
 }
