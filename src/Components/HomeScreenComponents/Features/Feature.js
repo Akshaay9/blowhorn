@@ -5,7 +5,7 @@ function Feature() {
   return (
     <>
       <div className="features">
-        <h2>our Features</h2>
+        <h2>Our Features</h2>
         <p>Check out our list of awesome features</p>
         <div className="feature-grid">
           <div className="feature">
