@@ -3,12 +3,16 @@
   margin: 0%;
   box-sizing: border-box;
   font-family: sans-serif;
+ 
 }
-p{
+
+p {
   padding: 0%;
   margin: 0%;
 }
-
+ul {
+  list-style: none;
+}
 :root {
   --blue: #4f46e5;
 }

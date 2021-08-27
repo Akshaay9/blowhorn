@@ -1,0 +1,86 @@
+.intro {
+  height: 100vh;
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+}
+.introcard-1,
+.introcard-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.introcard-1 {
+  padding: 0rem 2rem;
+}
+
+.introcard-1 img {
+  width: 60%;
+}
+
+.introcard-2 {
+  margin-top: 2rem;
+  flex-direction: row-reverse;
+}
+.introcard-2 .introcard {
+  padding-left: 2rem;
+}
+.introcard-1 .introcard {
+  padding-right: 2rem;
+}
+
+.introcard-2 img {
+  width: 80%;
+  margin-left: 0rem;
+}
+.introcard h2 {
+  line-height: 3rem;
+}
+.introcard p {
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+}
+.introcard ul li {
+  font-size: 14px;
+  color: #6b727e;
+  line-height: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+.introcard .fa-square {
+  color: #fece30;
+  border: 4px solid #fece30;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width:780px) {
+  .introcard-1,
+  .introcard-2 {
+    display: block;
+    width: 100%;
+  }
+  .introcard-1 {
+    padding: 0rem 0rem;
+  }
+  .introcard-1 img {
+    width: 100%;
+  }
+  .introcard-2 {
+    margin-top: 3rem;
+    flex-direction: row-reverse;
+  }
+  .introcard-2 img {
+    width: 100%;
+    margin-left: 0rem;
+  }
+  .introcard-2 .introcard {
+    padding-left: 0rem;
+  }
+  .introcard-1 .introcard {
+    padding-right: 0rem;
+  }
+}

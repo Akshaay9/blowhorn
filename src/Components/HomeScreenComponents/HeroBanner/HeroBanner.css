@@ -50,3 +50,28 @@
 }
 
 /* companies */
+.companies h5 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.companies-images {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* height: 5rem; */
+}
+
+.companies-images img {
+  width: 10%;
+  object-fit: contain;
+}
+@media screen and (max-width: 780px) {
+  .companies-images img {
+    width: 50%;
+  }
+ 
+}
