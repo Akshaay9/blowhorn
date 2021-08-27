@@ -1,8 +1,8 @@
 .intro {
-  height: 100vh;
+  /* height: 100vh; */
   /* border: 1px solid red; */
   width: 80%;
-  margin: auto;
+  margin: 2rem auto;
 }
 .introcard-1,
 .introcard-2 {

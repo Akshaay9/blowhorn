@@ -1,0 +1,48 @@
+.features {
+  width: 80%;
+  margin: 3rem auto;
+}
+.features > h2,
+.features > p {
+  text-align: center;
+}
+.features h2 {
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+.features p {
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  color: grey;
+}
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
+}
+
+.feature {
+  text-align: center;
+  padding: 3rem;
+  border-radius: 1rem;
+  background-color: #f3f4f6;
+}
+.feature .logo i {
+  padding: 1rem;
+  border-radius: 50%;
+  color: white;
+  background-color: var(--blue);
+}
+
+.feature .logo {
+  margin-bottom: 0.9rem;
+}
+.feature h4 {
+  color: grey;
+}
+.feature p{
+    margin-top: .7rem;
+}
